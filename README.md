@@ -1,0 +1,1 @@
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Mtdse\Desktop\Carpeta TARCE\PR1\PRHOTEL\prhotel-9561c-firebase-adminsdk-a0vaf-149cf47fbc.json"

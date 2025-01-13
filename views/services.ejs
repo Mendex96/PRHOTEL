@@ -7,7 +7,9 @@
     <style>
         body {
            font-family: 'Arial', sans-serif;
-           margin-bottom: 20px;
+           margin-bottom: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
            padding: 0;
            background-color: #f4f4f4;
            color: #333;
@@ -89,87 +91,24 @@
            margin: 10px 0;
        }
        footer {
-           background-color: #333;
-           color: #ddd;
-           text-align: center;
-           padding: 15px 0;
-           font-size: 0.9em;
-       }
-       .hero {
-     position: relative;
-     text-align: center;
-     color: white;
- }
+            background-color: #333;
+            color: #ddd;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+        }
 
- .carousel-container {
-     position: relative;
-     width: 100%;
-     overflow: hidden;
- }
+        h2 {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
 
- .carousel-slide {
-     display: flex;
-     transition: transform 1s ease-in-out;
- }
-
- .carousel-item {
-     min-width: 100%;
-     position: relative;
- }
-
- .carousel-item img {
-     width: 100%;
-     height: auto;
-     display: block;
- }
-
- .carousel-caption {
-     position: absolute;
-     bottom: 20px;
-     left: 50%;
-     transform: translateX(-50%);
-     font-size: 1.5em;
-     font-weight: bold;
-     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
- }
-
- h2 {
-     position: absolute;
-     bottom: 30px;
-     left: 50%;
-     transform: translateX(-50%);
-     font-size: 2em;
-     font-weight: bold;
-     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
- }
-
- .carousel-nav-left, .carousel-nav-right {
-     position: absolute;
-     top: 50%;
-     transform: translateY(-50%);
-     font-size: 2em;
-     color: white;
-     background-color: rgba(0, 0, 0, 0.5);
-     padding: 10px;
-     cursor: pointer;
-     z-index: 100;
-     border-radius: 50%;
-     transition: background-color 0.3s;
- }
-
- .carousel-nav-left {
-     left: 15px;
- }
-
- .carousel-nav-right {
-     right: 15px;
- }
-
- .carousel-nav-left:hover, .carousel-nav-right:hover {
-     background-color: rgba(0, 0, 0, 0.7);
- }
-
- .services-container {
+        .services-container {
             padding: 20px;
             margin-top: 50px;
         }
@@ -309,8 +248,8 @@
 </div>
 
 <footer>
-    &copy; 2024 Hotel Luxor. Todos los derechos reservados.
-</footer>
+    <p>&copy; 2024 Hotel Paraíso Tropical. Todos los derechos reservados.</p>
+  </footer>
 
 </body>
 </html>
